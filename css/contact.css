@@ -20,42 +20,79 @@ html {
 
 }
 
-h2 {
+main {
   display: grid;
-  align-items: center;
   justify-content: center;
+  max-width: 100%;
+  height: 100%;
+  background-color: whitesmoke;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+header, footer {
+  background: #22C1C3;
+  background: radial-gradient(circle,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+
+}
+/*combinator*/
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+}
+/*combinator*/
+header ul li {
+  float: left;
+  padding: 10px;
+  height: 100%;
+}
+
+/*pseudo-classes*/
+ul li:hover {
+  background-color: beige;
+  cursor: pointer;
+}
+
+form, #success-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: azure;
+  border-radius: 10px 20px;
+  border: 2px inset black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  margin: 50px;
 }
 
 
+#input-fields {
+  display: flex;
+  flex-direction: column;
 
-form {
-  display: grid;
-  align-items: center;
-  background-color: lightblue;
-  text-align: left;
-  justify-content: center;
-  border-style: solid;
-  border-radius: 1px;
-  border-color: black;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 10px;
-  max-width: 400px;
-  margin: auto;
+}
+
+input[type="input"] {
+  width: 150px;
+  justify-content: space-evenly;
+}
+
+#message {
+  resize: both;
+  overflow: scroll;
+  min-width: 156px;
+  max-width: 350px;
 }
 
 #success-message {
-  display: none;
-  align-items: center;
-  background-color: lightblue;
-  text-align: left;
-  justify-content: center;
-  border-style: solid;
-  border-radius: 1px;
-  border-color: black;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  padding: 10px;
-  max-width: 400px;
-  margin: auto;
+  visibility: hidden;
 }
 
 #title {

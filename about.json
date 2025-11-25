@@ -1,0 +1,27 @@
+[
+  {
+    "id": "early life",
+    "description": "I was born in Ukraine. I moved to the US when I was 4 years old. I grew up in the Philadelphia area.",
+    "img": "https://www.publicdomainpictures.net/pictures/330000/velka/flag-of-ukraine-themes-idea-design-15871096940bX.jpg"
+  },
+  {
+    "id": "college",
+    "description": "In college, I decided to study music and music education. I played classical guitar for recitals, weddings, and other events.",
+    "img": "https://c1.wallpaperflare.com/preview/696/780/859/guitar-instrument-music-acoustic-guitar.jpg"
+  },
+  {
+    "id": "postcollege",
+    "description": "After college, I lived in France for 2 years where I taught English in public elementary schools.",
+    "img": "https://www.freewalkingtournice.com/wp-content/uploads/2021/02/visiter-nice-france.jpg"
+  },
+  {
+    "id": "teaching",
+    "description": "After returning to the US, I became a high school ESL teacher in Philadelphia, where I currently work.",
+    "img": "https://media.architecturaldigest.com/photos/5755f69c69bcf60b7b864713/master/pass/philadelphia-travel-guide-01.jpg"
+  },
+  {
+    "id": "teaching",
+    "description": "Seeking a change and wanting to further challenge myself, I decided to pursue a Master's in Software Development at BU.",
+    "img": "https://media.licdn.com/dms/image/v2/C4E1BAQHShv4n9zYNZg/company-background_10000/company-background_10000/0/1584971727010/boston_university___metropolitan_college_cover?e=2147483647&v=beta&t=X_LH3bmqwP2v3vw646i89PGBVK81Mb2Bsjza3kUlgnA"
+  }
+]
