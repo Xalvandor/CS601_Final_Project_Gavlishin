@@ -37,7 +37,7 @@ function fetchSports() {
 // function for processing fetched Data and appending it to DOM
 function processData(data) {
   data.forEach(team => {
-    let imgOrder = Math.random() * 10;
+    // let imgOrder = Math.random() * 10;
 
     // creates img element using team logo
     let teamImg = document.createElement('IMG');
