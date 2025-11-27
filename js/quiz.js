@@ -68,7 +68,7 @@ function processData(data) {
     //teamFigure.style.flexShrink = "2";
     //teamFigure.style.flexWrap = "wrap";
     // teamFigure.style.flexFlow = "column wrap";
-    teamFigure.style.order = imgOrder.toString();
+    // teamFigure.style.order = imgOrder.toString();
     //dragstart event for figure elem
     teamFigure.addEventListener('dragstart', (event) => {
       event.dataTransfer.setData('text/plain', teamFigure.id)
