@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Somewhere Over The Rainbow - Solo Guitar",
+    "src": "https://www.youtube.com/embed/rNTacwHdtrc?si=jFzJFETGW5nd5dz4",
+    "description": "And the dreams that you dream of really do come true"
+  },
+  {
+    "id": 2,
+    "title": "Better Together - Jack Johnson (arr. Kolya Gavlishin)",
+    "src": "https://www.youtube.com/embed/cSoE4lA9QUo?si=rHUGpxtyynQoct55",
+    "description": "I learned this tune when it was requested for a wedding. It's really fun to play, and the arrangement is my own."
+  },
+  {
+    "id": 3,
+    "title": "Here There And Everywhere - The Beatles",
+    "src": "https://www.youtube.com/embed/AZM-LefzQSw?si=e6rqgjBgwTXdAthr",
+    "description": "One of my favorite Beatles tunes."
+  },
+  {
+    "id": 4,
+    "title": "Ballata Per Elena Bellissima - Viktor Kozlov",
+    "src": "https://www.youtube.com/embed/0ELV_9iB4hE?si=mEE2f7xx_aUn-RAJ",
+    "description": "A beautiful piece by the composer Viktor Kozlov. I hope you enjoy it!"
+  },
+  {
+    "id": 5,
+    "title": "Here Comes The Sun - Solo Fingerstyle",
+    "src": "https://www.youtube.com/embed/tst2uK4L01M?si=3bT15IanKjjKN7Fp",
+    "description": "A lovely arrangement of a classic tune."
+  },
+  {
+    "id": 6,
+    "title": "Tiento Antiguo - J. Rodrigo",
+    "src": "https://www.youtube.com/embed/PRF2APsPzNo?si=PDlMsiFfphMkZmRW",
+    "description": "Rodrigo is one of my most favorite composers, and his works for guitar are truly beautiful. I hope you enjoy! "
+  },
+  {
+    "id": 7,
+    "title": "Julia Florida - A. Barrios",
+    "src": "https://www.youtube.com/embed/LLb5hTvyttk?si=-seWc94R_7sqosap",
+    "description": "This is one of my favorite classical guitar pieces. I've been playing it for a while. This video is taken from my senior recital."
+  }
+]
