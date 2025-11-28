@@ -26,10 +26,6 @@ function processMusic(data) {
     videoButton.innerText = item.title;
     videos.set(videoButton.id, item.src);
     videoButton.addEventListener("click", () => {
-      // let selected = document.getElementById(item.id);
-      console.log(videoButton.id, typeof videoButton.id);
-      console.log(videos);
-      console.log(videos.get(typeof videoButton.id));
       document.getElementById("featured").src=videos.get(videoButton.id);
     })
     let videoDescription = document.createElement("p");
