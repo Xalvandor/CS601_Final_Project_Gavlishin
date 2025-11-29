@@ -1,12 +1,10 @@
 {
-  "name": " ",
+  "name": "-",
   "version": "0.0.1",
-  "description": "",
+  "description": "��#\u0000 \u0000C\u0000S\u00006\u00000\u00001\u0000_\u0000F\u0000i\u0000n\u0000a\u0000l\u0000_\u0000P\u0000r\u0000o\u0000j\u0000e\u0000c\u0000t\u0000_\u0000G\u0000a\u0000v\u0000l\u0000i\u0000s\u0000h\u0000i\u0000n\u0000\r\u0000 \u0000",
   "private": true,
-  "keywords": [
-    ""
-  ],
-  "license": "",
+  "keywords": [],
+  "license": "ISC",
   "author": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,5 +18,18 @@
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.4",
     "webpack-merge": "^5.10.0"
-  }
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "main": "webpack.common.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xalvandor/CS601_Final_Project_Gavlishin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Xalvandor/CS601_Final_Project_Gavlishin/issues"
+  },
+  "homepage": "https://github.com/Xalvandor/CS601_Final_Project_Gavlishin#readme"
 }

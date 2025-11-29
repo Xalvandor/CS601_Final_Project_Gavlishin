@@ -2,7 +2,9 @@ const musicAPI = "https://xalvandor.github.io/CS601_Final_Project_Gavlishin/musi
 
 addEventListener("DOMContentLoaded", fetchMusic);
 
-const videos = new Map();
+const videosSrcs = new Map();
+
+const videoDescriptions = new Map();
 
 function fetchMusic() {
   fetch(musicAPI)
@@ -24,9 +26,12 @@ function processMusic(data) {
     let videoButton = document.createElement("button");
     videoButton.id = item.id;
     videoButton.innerText = item.title;
-    videos.set(videoButton.id, item.src);
+    videosSrcs.set(videoButton.id, item.src);
+    videoDescriptions.set(videoButton.id, item.description);
     videoButton.addEventListener("click", () => {
-      document.getElementById("featured").src=videos.get(videoButton.id);
+      document.getElementById("featured").src = videosSrcs.get(videoButton.id);
+      document.getElementById("description").innerText = videoDescriptions.get(videoButton.id);
+
     })
     let videoDescription = document.createElement("p");
     videoDescription.innerText = item.description;
@@ -36,25 +41,11 @@ function processMusic(data) {
     video.allowFullscreen = "true";
     video.width="560";
     video.height="315";
-
  */
-
-
     playlist.appendChild(videoButton);
-    //videoItem.appendChild(video);
-    // videoItem.appendChild(videoDescription);
-
 
   })
 
-  document.getElementById("featured").src=videos.get("1");
+  document.getElementById("featured").src=videosSrcs.get("1");
+  document.getElementById("description").src=videoDescriptions.get("1");
 }
-
-console.log(videos);
-/*
-document.addEventListener("click", () => {
-
-} )
-
-
- */

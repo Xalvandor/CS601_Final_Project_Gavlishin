@@ -1,0 +1,28 @@
+main {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+#featured-video {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+#playlist-videos {
+  border: 5px solid black;
+  margin: 10px;
+
+}
+
+#playlist {
+  display: grid;
+
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin: 5px;
+}
