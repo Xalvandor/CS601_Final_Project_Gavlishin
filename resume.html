@@ -4,12 +4,24 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="css/resume.css">
   <title>Resume</title>
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="icon" href="icon.svg" sizes="any">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
 
   <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
   <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
   <!-- Babel CDN -->
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-  <script src="js/headerfooter.js" type="text/babel" data-presets="env,react"></script>
+  <script src="js/header.js" type="text/babel" data-presets="env,react"></script>
+  <script src="js/footer.js" type="text/babel" data-presets="env,react"></script>
 
 </head>
 <body>
@@ -22,7 +34,7 @@
     <p>If you would like to download it, click <a id= "resume" href="GAVLISHINRESUME.pdf" download="GAVLISHINRESUME">here</a>.</p>
     <p id="message"></p>
   </section>
-  <object data="GAVLISHINRESUME.pdf" type="application/pdf"></object>
+  <object data="data/GAVLISHINRESUME.pdf" type="application/pdf"></object>
 </main>
 <div id="footer"></div>
 

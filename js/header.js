@@ -1,13 +1,3 @@
-const year = new Date().getFullYear()
-
-function Headerfooter() {
-  return (<footer>
-            <small>&copy; {year} Portfolio Website - Gavlishin</small>
-  </footer>);
-}
-
-ReactDOM.render(<Headerfooter/>, document.getElementById('footer'));
-
 function Header() {
   return (<header>
       <nav>

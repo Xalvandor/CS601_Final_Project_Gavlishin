@@ -4,26 +4,32 @@
   <meta charset="UTF-8">
   <title>Music</title>
   <link rel="stylesheet" href="css/music.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="icon" href="icon.svg" sizes="any">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <!-- Babel CDN -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="js/header.js" type="text/babel" data-presets="env,react"></script>
+  <script src="js/footer.js" type="text/babel" data-presets="env,react"></script>
 </head>
 <body>
 <div class="container">
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="quiz.html">Quiz</a></li>
-        <li><a href="music.html">Music</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div id="header"></div>
   <main>
-
-
-
   <h2>Music</h2>
   <p>Here are a few videos of my solo guitar music!</p>
 
@@ -43,6 +49,7 @@
     <a href="https://www.youtube.com/@kolya_kvasolya" target="_blank">here.</a></p>
 
   </main>
+  <div id="footer"></div>
 
 </div>
 
