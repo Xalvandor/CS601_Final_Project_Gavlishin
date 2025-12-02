@@ -1,4 +1,4 @@
-const musicAPI = "https://xalvandor.github.io/CS601_Final_Project_Gavlishin/music.json";
+const musicAPI = "https://xalvandor.github.io/CS601_Final_Project_Gavlishin/data/music.json";
 
 addEventListener("DOMContentLoaded", fetchMusic);
 

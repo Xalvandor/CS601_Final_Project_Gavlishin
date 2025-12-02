@@ -1,4 +1,4 @@
-const aboutMeURL = "https://xalvandor.github.io/CS601_Final_Project_Gavlishin/about.json";
+const aboutMeURL = "https://xalvandor.github.io/CS601_Final_Project_Gavlishin/data/about.json";
 
 addEventListener("DOMContentLoaded", () => {
     fetchAboutMe();
