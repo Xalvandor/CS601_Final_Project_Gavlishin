@@ -20,22 +20,19 @@
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
+
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <!-- Babel CDN -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="js/headerfooter.js" type="text/babel" data-presets="env,react"></script>
 </head>
 
 <body>
 
   <!-- Add your site or application content here -->
   <div class="container">
-    <header>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="quiz.html">Quiz</a></li></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </header>
+    <div id="header"></div>
     <div class="content-wrapper">
       <main>
         <h2>CS Projects</h2>
@@ -75,12 +72,7 @@
         </ul>
       </aside>
     </div>
-    <footer>
-      <small>&copy;
-        <script>
-          document.write(new Date().getFullYear())</script> My Portfolio Website.
-      </small>
-    </footer>
+    <div id="footer"></div>
   </div>
 
 </body>

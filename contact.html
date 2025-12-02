@@ -20,71 +20,63 @@
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
+
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <!-- Babel CDN -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="js/headerfooter.js" type="text/babel" data-presets="env,react"></script>
 </head>
 
 <body>
 
 <!-- Add your site or application content here -->
 
-<header>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="resume.html">Resume</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="quiz.html">Quiz</a></li></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</header>
+<div id="header"></div>
 <main>
 
 
-<form id="myForm" name="myForm" novalidate onsubmit="return validateForm();">
+  <form id="myForm" name="myForm" novalidate onsubmit="return validateForm();">
 
-  <p id="title">Contact Form</p>
-  <section id="input-fields">
+    <p id="title">Contact Form</p>
+    <section id="input-fields">
+      <p>
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="firstname" placeholder="Enter Your First Name"><br>
+        <span class="error" id="firstname-error"></span>
+      </p>
+
+      <p>
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="lastname" placeholder="Enter Your Last Name"><br>
+        <span class="error" id="lastname-error"></span>
+      </p>
+
+      <p>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Enter Your Email"><br>
+        <span class="error" id="email-error"></span>
+      </p>
+
+      <p>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Enter Your Message"></textarea><br>
+        <span class="error" id="message-error"></span>
+      </p>
+    </section>
+
+
     <p>
-      <label for="firstname">First Name:</label>
-      <input type="text" id="firstname" name="firstname" placeholder="Enter Your First Name"><br>
-      <span class="error" id="firstname-error"></span>
+      <button type="submit" id="submit">Submit</button>
     </p>
 
-    <p>
-      <label for="lastname">Last Name:</label>
-      <input type="text" id="lastname" name="lastname" placeholder="Enter Your Last Name"><br>
-      <span class="error" id="lastname-error"></span>
-    </p>
 
-    <p>
-      <label for="email">Email:</label>
-      <input type="text" id="email" name="email" placeholder="Enter Your Email"><br>
-      <span class="error" id="email-error"></span>
-    </p>
-
-    <p>
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" placeholder="Enter Your Message"></textarea><br>
-      <span class="error" id="message-error"></span>
-    </p>
-  </section>
-
-
-  <p>
-    <button type="submit" id="submit">Submit</button>
-  </p>
-
-
-</form>
+  </form>
 
 <div id="success-message"></div>
 
 </main>
-<footer>
-  <small>&copy;
-    <script>
-      document.write(new Date().getFullYear())</script> My Portfolio Website.
-  </small>
-</footer>
+<div id="footer"></div>
 
 <script src="js/contact.js"></script>
 

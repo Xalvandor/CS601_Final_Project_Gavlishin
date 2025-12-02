@@ -4,19 +4,17 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="css/resume.css">
   <title>Resume</title>
+
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+  <!-- Babel CDN -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script src="js/headerfooter.js" type="text/babel" data-presets="env,react"></script>
+
 </head>
 <body>
 
-<header>
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="resume.html">Resume</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="quiz.html">Quiz</a></li></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-</header>
+<div id="header"></div>
 <main>
   <section>
     <h2>Resume</h2>
@@ -26,12 +24,7 @@
   </section>
   <object data="GAVLISHINRESUME.pdf" type="application/pdf"></object>
 </main>
-<footer>
-  <small>&copy;
-    <script>
-      document.write(new Date().getFullYear())</script> My Portfolio Website.
-  </small>
-</footer>
+<div id="footer"></div>
 
 <script src="js/resume.js"></script>
 </body>
