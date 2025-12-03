@@ -54,6 +54,7 @@ function processAboutMe(data){
     textImgDiv.style.justifyContent = "center";
     textImgDiv.style.alignItems = "center";
 
+
     document.getElementById("about-me").appendChild(aboutMeSection);
     document.getElementById(aboutMeSection.id).appendChild(aboutMeHeader);
     document.getElementById(aboutMeSection.id).appendChild(textImgDiv);
