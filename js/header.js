@@ -1,6 +1,6 @@
 function Header() {
   return (<header>
-      <img src="/data/kolya-high-resolution-logo.png" alt="my plant logo"/>
+      <img src="./data/kolya-high-resolution-logo.png" alt="my plant logo"/>
       <nav>
         <ul>
           <li><a href="index.html">Home</a></li>
