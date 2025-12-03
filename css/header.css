@@ -1,0 +1,52 @@
+header {
+
+  background: #22C1C3;
+  background: radial-gradient(circle,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+
+  height: 100px;
+  max-width: 100%;
+  position: sticky;
+  top: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  display: grid;
+  grid-row: auto;
+  justify-content: center;
+  max-width: 100%;
+  overflow: auto;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  max-width: 100%;
+
+}
+
+header ul li {
+  padding: 10px;
+  font-style: normal;
+  max-width: 100%;
+  overflow: auto;
+}
+
+ul li a:hover {
+  cursor: pointer;
+}
+
+header img {
+  max-height: 50px;
+  max-width: 50px;
+  width: auto;
+  height: auto;
+  border-radius: 20px;
+}
+
+
+

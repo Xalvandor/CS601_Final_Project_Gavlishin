@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Contact Form</title>
   <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
   <meta name="description" content="">
 
   <meta property="og:title" content="">
@@ -27,6 +29,7 @@
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   <script src="js/header.js" type="text/babel" data-presets="env,react"></script>
   <script src="js/footer.js" type="text/babel" data-presets="env,react"></script>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
 </head>
 
 <body>
@@ -35,12 +38,11 @@
 
 <div id="header"></div>
 <main>
-
-
   <form id="myForm" name="myForm" novalidate onsubmit="return validateForm();">
 
-    <p id="title">Contact Form</p>
-    <section id="input-fields">
+    <h2 id="title">Contact Form</h2>
+    <p id="subtitle">Send me a message!</p>
+    <div id="input-fields">
       <p>
         <label for="firstname">First Name:</label>
         <input type="text" id="firstname" name="firstname" placeholder="Enter Your First Name"><br>
@@ -64,7 +66,7 @@
         <textarea id="message" name="message" placeholder="Enter Your Message"></textarea><br>
         <span class="error" id="message-error"></span>
       </p>
-    </section>
+    </div>
 
 
     <p>
@@ -73,9 +75,7 @@
 
 
   </form>
-
-<div id="success-message"></div>
-
+  <div id="success-message"></div>
 </main>
 <div id="footer"></div>
 

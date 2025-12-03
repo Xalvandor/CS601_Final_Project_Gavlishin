@@ -23,31 +23,6 @@ body {
   justify-content: space-evenly;
 }
 
-header {
-  position: sticky;
-  top: 0;
-}
-
-header, footer {
-  background: #22C1C3;
-  background: radial-gradient(circle,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
-
-}
-/*combinator*/
-header ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  height: 100%;
-}
-/*combinator*/
-header ul li {
-  float: left;
-  padding: 10px;
-  height: 100%;
-}
-
 /*pseudo-classes*/
 ul li:hover {
   background-color: beige;

@@ -3,7 +3,8 @@ const year = new Date().getFullYear()
 
 function Footer() {
   return (<footer>
-            <p>&copy; {year} Portfolio Website - Gavlishin</p>
+    <img src="data/kolya-high-resolution-logo.png" alt={"Green plant logo"}/>
+    <p>&copy; {year} Portfolio Website - Gavlishin</p>
   </footer>);
 }
 
