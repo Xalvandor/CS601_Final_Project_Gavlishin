@@ -27,22 +27,25 @@ body {
 main {
   display: grid;
   min-height: 100%;
+  max-width: 100%;
 }
 
 .container {
   display: grid;
-  grid-column: 2;
+  grid-column: 1;
   max-width: 100%;
   min-height: 100%;
 }
 
 .project-container {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: 1fr;
+  max-width: 100%;
 }
 
+
 /*adjusts for smaller screen size */
+
 @media screen and (max-width: 600px) {
   .project-container {
     display: grid;
@@ -51,6 +54,7 @@ main {
 }
 
 /*adjusts for larger screen size */
+
 @media screen and (min-height: 700px) {
   .project-container {
     display: grid;
