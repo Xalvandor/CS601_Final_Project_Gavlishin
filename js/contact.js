@@ -58,6 +58,7 @@ function validateForm() {
     const successMessage = document.getElementById('success-message');
     successMessage.innerHTML = `Thank you, ${firstName} ${lastName}, for sending me a message!`;
     successMessage.style.display = 'grid';
+    successMessage.style.order = "1";
     return false;
   }
     // The return false above and the return false below are to keep the web form from navigating away

@@ -38,44 +38,50 @@
 
 <div id="header"></div>
 <main>
-  <form id="myForm" name="myForm" novalidate onsubmit="return validateForm();">
+  <div id="content">
+    <section>
+      <h2 id="title">Contact Form</h2>
+      <p id="subtitle">Send me a message!</p>
+    </section>
 
-    <h2 id="title">Contact Form</h2>
-    <p id="subtitle">Send me a message!</p>
-    <div id="input-fields">
-      <p>
-        <label for="firstname">First Name:</label>
-        <input type="text" id="firstname" name="firstname" placeholder="Enter Your First Name"><br>
-        <span class="error" id="firstname-error"></span>
-      </p>
+    <form id="myForm" name="myForm" novalidate onsubmit="return validateForm();">
+      <div id="input-fields">
+          <p>
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter Your First Name"><br>
+            <span class="error" id="firstname-error"></span>
+          </p>
 
-      <p>
-        <label for="lastname">Last Name:</label>
-        <input type="text" id="lastname" name="lastname" placeholder="Enter Your Last Name"><br>
-        <span class="error" id="lastname-error"></span>
-      </p>
+          <p>
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Enter Your Last Name"><br>
+            <span class="error" id="lastname-error"></span>
+          </p>
 
-      <p>
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="email" placeholder="Enter Your Email"><br>
-        <span class="error" id="email-error"></span>
-      </p>
+          <p>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Enter Your Email"><br>
+            <span class="error" id="email-error"></span>
+          </p>
 
-      <p>
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" placeholder="Enter Your Message"></textarea><br>
-        <span class="error" id="message-error"></span>
-      </p>
-    </div>
-
-
-    <p>
-      <button type="submit" id="submit">Submit</button>
-    </p>
+          <p>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Enter Your Message"></textarea><br>
+            <span class="error" id="message-error"></span>
+          </p>
+        </div>
 
 
-  </form>
-  <div id="success-message"></div>
+        <p>
+          <button type="submit" id="submit">Submit</button>
+        </p>
+
+
+    </form>
+    <div id="success-message"></div>
+  </div>
+
+
 </main>
 <div id="footer"></div>
 

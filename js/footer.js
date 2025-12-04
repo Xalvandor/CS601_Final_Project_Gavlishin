@@ -5,6 +5,8 @@ function Footer() {
   return (<footer>
     <img src="data/kolya-high-resolution-logo.png" alt={"Green plant logo"}/>
     <p>&copy; {year} Portfolio Website - Gavlishin</p>
+    <a href="https://github.com/Xalvandor" target="_blank"><img
+        src="https://pngimg.com/uploads/github/github_PNG53.png" alt="GitHub logo"/></a>
   </footer>);
 }
 
