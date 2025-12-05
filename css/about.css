@@ -19,7 +19,6 @@ main {
 
 #about-me {
   display: grid;
-  justify-items: center;
   grid-template-rows: 1fr;
 }
 
