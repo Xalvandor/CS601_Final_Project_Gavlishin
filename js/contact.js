@@ -57,7 +57,7 @@ function validateForm() {
     document.getElementById('success-message').style.visibility = 'visible';
     const successMessage = document.getElementById('success-message');
     successMessage.innerHTML = `Thank you, ${firstName} ${lastName}, for sending me a message!`;
-    successMessage.style.display = 'grid';
+    successMessage.style.visibility = 'revert';
     successMessage.style.order = "1";
 
     //scroll back up to the top to see the success message
