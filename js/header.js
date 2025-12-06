@@ -10,6 +10,7 @@ function Header() {
             menu.style.display = "none";
           }
         }}>☰</button>
+
         <ul id="menu">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
