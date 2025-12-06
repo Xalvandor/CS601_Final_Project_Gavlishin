@@ -1,18 +1,42 @@
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: calibri, serif;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: white;
+}
+
 main {
   display: grid;
   justify-content: center;
   text-align: center;
+  height: 100%;
 }
 
 #featured-video {
   display: grid;
-  justify-content: center;
+  align-items: center;
+  justify-items: center;
   text-align: center;
 }
 
+iframe {
+  width: 840px;
+  height: 472.5px;
+}
+
 #playlist-videos {
-  border: 5px solid black;
-  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 2px inset black;
+  background-color: azure;
+  border-radius: 10px 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
 }
 
@@ -23,6 +47,17 @@ main {
   align-items: center;
 }
 
+
+
 button {
-  margin: 5px;
+  background-color: #22C1C3;
+  border: 1px inset;
+  border-radius: 10px 20px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  cursor: pointer;
+  margin: 10px;
 }
