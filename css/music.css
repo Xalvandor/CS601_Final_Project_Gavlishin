@@ -30,6 +30,13 @@ iframe {
   height: 472px;
 }
 
+@media (max-width: 850px) {
+  iframe {
+    width: 350px;
+    height: 197px;
+  }
+}
+
 #playlist-videos {
   display: flex;
   flex-direction: column;
@@ -38,6 +45,8 @@ iframe {
   border-radius: 10px 20px;
   box-shadow: 2px 2px 5px  #FDBB2D;
 
+  list-style-type: none;
+
 }
 
 #playlist {
@@ -45,6 +54,7 @@ iframe {
 
   justify-content: center;
   align-items: center;
+  list-style-type: none;
 }
 
 
