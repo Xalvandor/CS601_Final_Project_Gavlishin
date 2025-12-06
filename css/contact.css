@@ -68,7 +68,6 @@ form {
 }
 
 input[type="input"] {
-  width: 300px;
   justify-content: space-evenly;
 }
 
@@ -85,7 +84,7 @@ input[type="input"] {
   resize: vertical;
   overflow: scroll;
   max-width: 350px;
-  width: 35vh;
+  width: 35vw;
 }
 #success-message {
   visibility: hidden;

@@ -37,13 +37,23 @@ body {
 }
 
 main {
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   justify-items: center;
+  align-items: center;
   height: 100%;
   width: auto;
   margin: 10px;
+}
+
+.container {
+  border: 2px inset #22C1C3;
+  background-color: azure;
+  border-radius: 10px 20px;
+  justify-content: center;
+  box-shadow: 2px 2px 5px  #FDBB2D;
+  margin: 10px;
+  padding: 5px;
 }
 
 
