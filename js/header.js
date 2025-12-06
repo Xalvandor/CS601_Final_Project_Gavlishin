@@ -19,7 +19,6 @@ function Header() {
         <li><a href="about.html">About</a></li>
         <li><a href="resume.html">Resume</a></li>
         <li><a href="projects.html">Projects</a></li>
-        <li><a href="quiz.html">Quiz</a></li>
         <li><a href="music.html">Music</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
