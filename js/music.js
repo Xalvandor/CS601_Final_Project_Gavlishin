@@ -39,13 +39,12 @@ function processMusic(data) {
     let video = document.createElement("iframe");
     video.src = item.src;
     video.allowFullscreen = "true";
-    video.width="560";
-    video.height="315";
  */
     playlist.appendChild(videoButton);
 
   })
 
-  document.getElementById("featured").src=videosSrcs.get("1");
-  document.getElementById("description").src=videoDescriptions.get("1");
+  document.getElementById("featured").src=videosSrcs.get("2");
+  document.getElementById("description").innerText=videoDescriptions.get("2");
+
 }

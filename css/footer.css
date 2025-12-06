@@ -5,12 +5,13 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 20px;
+  width: 100%;
 }
 
 footer img {
   max-height: 25px;
   max-width: 25px;
   border-radius: 20px;
+  margin: 10px;
 
 }
