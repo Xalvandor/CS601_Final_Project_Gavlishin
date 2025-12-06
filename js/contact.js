@@ -59,6 +59,10 @@ function validateForm() {
     successMessage.innerHTML = `Thank you, ${firstName} ${lastName}, for sending me a message!`;
     successMessage.style.display = 'grid';
     successMessage.style.order = "1";
+
+    //scroll back up to the top to see the success message
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     return false;
   }
     // The return false above and the return false below are to keep the web form from navigating away
