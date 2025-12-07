@@ -1,3 +1,5 @@
+//React component for displaying footer on the bottom of each page
+//Footer includes my logo, the current year, and clickable thumbnail links for GitHub and YouTube
 function Footer() {
   return (<footer>
     <img src="data/kolya-high-resolution-logo.png" alt="Kolya's green plant logo"/>

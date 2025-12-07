@@ -18,7 +18,7 @@ function fetchAboutMe(){
   });
 }
 
-//dunction for processing loaded data
+//function for processing loaded data
 function processAboutMe(data){
   //counter and order variables used to alternate order of image and text
   let counter = 0;
@@ -47,14 +47,14 @@ function processAboutMe(data){
     //logic for alternating the order of the images with the text
     order = (counter + 1) % 2;
     aboutMeImg.style.order = order.toString();
-
+    //creates div container for image with some styling
     let textImgDiv = document.createElement('div');
     textImgDiv.id = aboutMeDescription.id + "-" + aboutMeImg.id;
     textImgDiv.style.display = "flex";
     textImgDiv.style.justifyContent = "center";
     textImgDiv.style.alignItems = "center";
 
-
+    //adds elements to the DOM
     document.getElementById("about-me").appendChild(aboutMeSection);
     document.getElementById(aboutMeSection.id).appendChild(aboutMeHeader);
     document.getElementById(aboutMeSection.id).appendChild(textImgDiv);

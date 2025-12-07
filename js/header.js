@@ -1,8 +1,9 @@
+//React component for a header with a menu that can be toggled on and off
 function Header() {
   return (<header>
-
       <nav>
         <button id="toggle" onClick={() => {
+          //JS for toggling menu on and off
           const menu = document.getElementById("menu");
           const button = document.getElementById("toggle");
           if (window.getComputedStyle(menu).display === "none") {
@@ -14,8 +15,7 @@ function Header() {
           }
         }}>☰
         </button>
-
-
+        {/* menu for navigating website*/}
       </nav>
       <ul id="menu">
         <li><a href="index.html">Home</a></li>
