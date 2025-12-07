@@ -4,10 +4,13 @@ function Header() {
       <nav>
         <button id="toggle" onClick={() => {
           const menu = document.getElementById("menu");
-          if (menu.style.display === "none") {
+          const button = document.getElementById("toggle");
+          if (window.getComputedStyle(menu).display === "none") {
             menu.style.display = "block";
+            button.style.backgroundColor = "#22C1C3";
           } else {
             menu.style.display = "none";
+            button.style.backgroundColor = "transparent";
           }
         }}>☰
         </button>
