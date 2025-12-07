@@ -8,6 +8,7 @@ const videosSrcs = new Map();
 //creates map of video ids to descriptions
 const videoDescriptions = new Map();
 //fetches data from JSON for music video playlist
+const videoTitles = new Map();
 function fetchMusic() {
   fetch(musicAPI)
     .then((response) => {
@@ -32,11 +33,12 @@ function processMusic(data) {
     //adds video info to Maps
     videosSrcs.set(videoButton.id, item.src);
     videoDescriptions.set(videoButton.id, item.description);
+    videoTitles.set(videoButton.id, item.title);
     //adds event listener to each button to change the featured video, the title and the description
     videoButton.addEventListener("click", () => {
       document.getElementById("featured").src = videosSrcs.get(videoButton.id);
       document.getElementById("description").innerText = videoDescriptions.get(videoButton.id);
-      document.getElementById("video-title").innerText = videoButton.innerText;
+      document.getElementById("video-title").innerText = videoTitles.get(videoButton.id);
     })
     //displays the description below the featured video
     let videoDescription = document.createElement("p");
@@ -48,5 +50,5 @@ function processMusic(data) {
   //logic for displaying the video when DOM is loaded before any button clicks
   document.getElementById("featured").src=videosSrcs.get("2");
   document.getElementById("description").innerText=videoDescriptions.get("2");
-  document.getElementById("video-title").innerText=document.getElementById("2").innerText;
+  document.getElementById("video-title").innerText=videoTitles.get("2");
 }
