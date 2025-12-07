@@ -9,6 +9,7 @@ const videosSrcs = new Map();
 const videoDescriptions = new Map();
 //fetches data from JSON for music video playlist
 const videoTitles = new Map();
+
 function fetchMusic() {
   fetch(musicAPI)
     .then((response) => {

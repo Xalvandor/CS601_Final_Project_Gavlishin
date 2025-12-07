@@ -25,11 +25,11 @@
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   <script src="js/header.js" type="text/babel" data-presets="env,react"></script>
   <script src="js/footer.js" type="text/babel" data-presets="env,react"></script>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
+
 
 </head>
 <body>
-
+<noscript>You need to enable JavaScript to run this app.</noscript>
 <div id="header"></div>
 <main>
   <div id="content">
@@ -42,22 +42,13 @@
     <div id="button-container">
       <button id="resume-button" onClick="toggleResume()">View Resume</button>
     </div>
-
-
   </section>
-
-
-
-
-
-  <div id = "resume-doc">
-    <object data="data/GAVLISHINRESUME.pdf" type="application/pdf"></object>
-  </div>
-
+    <div id = "resume-doc">
+      <object data="data/GAVLISHINRESUME.pdf" type="application/pdf"></object>
+    </div>
   </div>
 </main>
 <div id="footer"></div>
-
 <script src="js/resume.js"></script>
 </body>
 </html>
